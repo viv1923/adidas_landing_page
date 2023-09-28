@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', 'sans-serif';
+}
+.container{
+    width: 100%;
+    background-image: url(pictures/background.png);
+    background-position: center;
+    background-size: cover; 
+    box-sizing: border-box;
+
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#upperlogo{
+    height: 75px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.icons{
+    height: 30px;
+    width: 30px;
+}
+nav{
+    flex: 1;
+    padding-left: 420px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 15px;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: double;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.con{
+    display: inline;
+    margin-left: 200px ;
+
+}
+li a img:hover{
+    transform: scale(1.6);
+    transition: all .5s;
+}
+#mainshoe{
+    margin-top: 15px;
+    margin-left: 40px;
+    transform: rotate(8deg);
+    height: 450px;
+
+}
+.content{
+    position: absolute;
+    left: 1000px;
+    bottom: 230px;
+    width: 350px;
+    height: 190px;
+    
+}
+
+h1{ 
+    font-weight: 800;  
+}
+.btn{
+    /* margin-top: 9px;
+    color: black;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 15px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 4px rgb(20 1 1); */
+
+      background-color: transparent;
+      border: 2px solid #1A1A1A;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: #3B3B3B;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 16px;
+      font-weight: 600;
+      min-height: 60px;
+      min-width: 0;
+      outline: none;
+      padding: 16px 24px;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      touch-action: manipulation;
+      width: 50%;
+      will-change: transform;
+    }
+    
+    .btn:disabled {
+      pointer-events: none;
+    }
+    
+    .btn:hover {
+      color: #fff;
+      background-color: #1A1A1A;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+      transform: translateY(-2px);
+    }
+    
+    .btn:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+
+
+.others{
+    
+    display:flex;
+    padding-top: 50px;
+    margin: 0 500px;
+    /* position: relative;
+    left: 400px;
+    top: 40px; */
+}
+.logo2{
+    height: 60px;
+    display: inline;
+    margin-left: 1250px ;
+}
+
+
